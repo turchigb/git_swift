@@ -36,9 +36,12 @@ class alunno
     }
 }
 
-var pippo=alunno(nome:"Pippo", cognome:"De Pippis",annoNascita: 2000)
+var Pippo=alunno(nome:"Pippo", cognome:"De Pippis",annoNascita: 2000)
 
-pippo.setResidenza("Milano")
+Pippo.setResidenza("Milano")
 print(Pippo.residenza)
 print(Pippo.quantiAnni(2016))
 print(Pippo.getNome())
+var pluto=alunno(nome:"Pluto", cognome:"De Plutis",annoNascita: 1996)
+//attenzione allo spazio quando si concatena
+print(pluto.getNome() + " ha " + String(pluto.quantiAnni(2016)) + " anni")
