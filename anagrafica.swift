@@ -36,7 +36,9 @@ class alunno
     }
 }
 
-
+class prova
+{
+}
 
 
 var Pippo=alunno(nome:"Pippo", cognome:"De Pippis",annoNascita: 2000)
