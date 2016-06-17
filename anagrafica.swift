@@ -68,6 +68,7 @@ class scuola
 	}
 }
 
+// master
 
 var Pippo=alunno(nome:"Pippo", cognome:"De Pippis",annoNascita: 2000)
 
