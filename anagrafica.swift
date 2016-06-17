@@ -47,6 +47,25 @@ class scuola
         self.indirizzo=indirizzo
         self.tipo=tipo
     }
+	
+	func elabora()->String
+	{
+		var valore=""
+		//graffe obbligatorie anche per una sola istruzione
+		if tipo==1{
+			valore="insufficiente"
+		    
+		}
+		if tipo==2{
+			valore="sufficiente"	
+		    
+		}
+		if tipo==3{
+			valore="buono"
+		    
+		}
+		return valore
+	}
 }
 
 
@@ -56,3 +75,7 @@ Pippo.setResidenza("Milano")
 print(Pippo.residenza)
 print(Pippo.quantiAnni(2016))
 print(Pippo.getNome())
+var mattei=scuola(denominazione:"E. Mattei", indirizzo:"Sondrio", tipo:3)
+print(mattei.elabora())
+
+
