@@ -36,18 +36,7 @@ class alunno
     }
 }
 
-class scuola
-{
-    var denominazione="" , indirizzo=""
-    var tipo: Int
-    
-    init(denominazione:String, indirizzo:String, tipo:Int)
-    {
-        self.denominazione=denominazione
-        self.indirizzo=indirizzo
-        self.tipo=tipo
-    }
-}
+
 
 
 var Pippo=alunno(nome:"Pippo", cognome:"De Pippis",annoNascita: 2000)
