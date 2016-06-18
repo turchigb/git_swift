@@ -38,6 +38,9 @@ class alunno
 
 class prova
 {
+	// Adesso questa classe viene creaa da turchigb-alter-ego
+	var a=0
+	
 }
 
 
